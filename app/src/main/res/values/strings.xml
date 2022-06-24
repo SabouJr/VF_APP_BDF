@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BDF_APP</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_quizz">Quizz</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="did_you_know">Le saviez-vous ?</string>
+    <string name="tirelire">Tirelire</string>
+    <string name="categorie_1">CATEGORIE 1</string>
+    <string name="le_saviez_vous">Le Saviez-Vous ?</string>
+    <string name="connexion">Connexion</string>
+    <string name="category_1">CATEGORY 1</string>
+    <string name="todo">TODO</string>
+</resources>

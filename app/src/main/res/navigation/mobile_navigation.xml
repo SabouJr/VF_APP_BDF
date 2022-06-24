@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="fr.example.bdf_app.ui.notifications.CollectionFragment"
+        android:label="Le Saviez-vous ?"
+        tools:layout="@layout/fragment_collection"/>
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="fr.example.bdf_app.ui.dashboard.DashboardFragment"
+        android:label="Tirelire"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_connexion"
+        android:name="fr.example.bdf_app.ui.connnexion.ConnexionFragment"
+        android:label="Connexion"
+        tools:layout="@layout/fragment_connexion"/>
+
+    <fragment
+        android:id="@+id/navigation_quizz"
+        android:name="fr.example.bdf_app.ui.home.QuizzFragment"
+        android:label="@string/title_quizz"
+        tools:layout="@layout/fragment_quizz" />
+</navigation>
